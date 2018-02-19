@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use bootstrap library for styles
 gem 'bootstrap-sass', '~> 3.3.7'
+gem 'jquery-rails'
 
 #Haml (HTML Abstraction Markup Language) is a layer on top of HTML
 gem 'haml', '~> 5.0', '>= 5.0.4' 
