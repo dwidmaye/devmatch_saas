@@ -34,6 +34,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-rails'
 
+# Use font-awesome library for icons
+gem 'font-awesome-sass', '~> 5.0.6'
+
 #Haml (HTML Abstraction Markup Language) is a layer on top of HTML
 gem 'haml', '~> 5.0', '>= 5.0.4' 
 #Rails scaffolding with Haml rather than ERB
