@@ -30,7 +30,9 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-#HAML
+# Use bootstrap library for styles
+gem 'bootstrap-sass', '~> 3.3.7'
+
 #Haml (HTML Abstraction Markup Language) is a layer on top of HTML
 gem 'haml', '~> 5.0', '>= 5.0.4' 
 #Rails scaffolding with Haml rather than ERB
