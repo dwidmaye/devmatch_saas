@@ -9,6 +9,12 @@ class ContactsController < ApplicationController
       
       respond_to do |format|
         if @contact.save
+          name = params[:contact][:name]
+          email = params[:contact][:email]
+          body = params[:contact][:comments]
+          
+          ContactMailer.contact_email(name, email, body).deliver
+          
           format.html { redirect_to new_contact_path, notice: 'Post was successfully created.' }
           format.json { render :show, status: :created, location: @contact }          
         else

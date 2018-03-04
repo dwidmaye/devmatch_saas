@@ -5,4 +5,7 @@
     :css
       /* Email styles need to be inline */
   %body
-    = yield
+  %p 
+    = "You have received and email from the sit's contact us form, from #{@name}, #{@email}."
+  %p 
+    = @body
