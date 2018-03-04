@@ -13,5 +13,5 @@
         .form-group
           = f.label :comments
           = f.text_area :comments, class: 'form-control'
-          
-        = f.submit 'Submit', class: 'btn btn-default'
+        .actions{class: 'form-group'}
+          = f.submit 'Submit', class: 'btn btn-default'
