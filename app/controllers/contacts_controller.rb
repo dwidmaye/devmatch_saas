@@ -6,14 +6,16 @@ class ContactsController < ApplicationController
    
    def create
       @contact = Contact.new(contact_params)
-      if @contact.save
-        flash[:success] = "Message sent."
-        redirect_to new_contact_path
-      else
-        flash[:error] = "An error occurred."
-        redirect_to new_contact_path
-      end
-           
+      
+      respond_to do |format|
+        if @contact.save
+          format.html { redirect_to new_contact_path, notice: 'Post was successfully created.' }
+          format.json { render :show, status: :created, location: @contact }          
+        else
+          format.html { redirect_to new_contact_path, notice: 'Post was invalid.' }
+          format.json { render json: @contact.errors, status: :unprocessable_entity }          
+        end
+      end      
    end
    
    private
