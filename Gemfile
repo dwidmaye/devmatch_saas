@@ -44,6 +44,9 @@ gem 'haml_scaffold', '~> 1.1'
 #Convert HTML/ERB to HAML
 gem 'html2haml'
 
+#Use devise for user authentication
+gem 'devise',  '~> 4.4.1'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
