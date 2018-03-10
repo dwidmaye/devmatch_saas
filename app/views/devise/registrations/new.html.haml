@@ -5,6 +5,4 @@
     .well
       %h2 Sign up
       = render "basic_form"
-      - if params[:plan] == '2'
-        = render "pro_form"
       = render "devise/shared/links"
