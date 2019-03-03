@@ -47,6 +47,8 @@ gem 'html2haml'
 gem "sprockets", ">= 3.7.2"
 #Setting ruby-ffi version
 gem "ffi", ">= 1.9.24"
+#Setting ruby-zip version
+gem "rubyzip", ">= 1.2.2"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
