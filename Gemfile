@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use bootstrap library for styles
-gem 'bootstrap-sass', '~> 3.3.7'
+gem "bootstrap-sass", ">= 3.4.1"
 gem 'jquery-rails'
 
 # Use font-awesome library for icons
