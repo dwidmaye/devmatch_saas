@@ -45,6 +45,8 @@ gem 'haml_scaffold', '~> 1.1'
 gem 'html2haml'
 #sprockets
 gem "sprockets", ">= 3.7.2"
+#Setting ruby-ffi version
+gem "ffi", ">= 1.9.24"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
