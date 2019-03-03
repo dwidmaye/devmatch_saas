@@ -43,6 +43,8 @@ gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'haml_scaffold', '~> 1.1'
 #Convert HTML/ERB to HAML
 gem 'html2haml'
+#sprockets
+gem "sprockets", ">= 3.7.2"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
